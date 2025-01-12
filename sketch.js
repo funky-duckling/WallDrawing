@@ -6,7 +6,7 @@ function setup() {
     stroke(127);
     strokeWeight(10);
     for(let posX = 0.2; posX < 10; posX++){
-      line(posX * 25, 5, posX * 25, height/2.05);
+      line(posX * 25, 5, posX * 25, height/2.02);
     }
   
     noStroke();
@@ -35,8 +35,8 @@ function setup() {
     strokeWeight(10);
     stroke(color(0,0,255));
     for (let i = 0.5; i < 10; i++){
-      line(width/2 + 5, height - i * 25 + 5, width/2 + i * 25, height);
-      line(width/2 + i * 25 + 5, height/2 + 5, width, height - i *25);
+      line(width/2 + 2.5, height - i * 25 + 2.5, width/2 + i * 25, height);
+      line(width/2 + i * 25 + 2.5, height/2 + 2.5, width, height - i *25);
     }
     
     strokeWeight(5);
